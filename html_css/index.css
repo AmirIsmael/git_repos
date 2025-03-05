@@ -1,0 +1,242 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+}
+.first
+{
+    width: 100%;
+    height: 500px;
+    background-image: url(images/paysage.jpg);
+    background-repeat: no-repeat;
+    background-position-y:99% ; 
+    background-size: cover;
+    padding-top: 1%;
+    box-shadow: -9px -8px 300px black inset;
+}
+.first header
+{
+    border: 0px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.first header nav ul
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.first header nav ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-family: "Manrope", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+}
+.first header nav ul li
+{
+    list-style: none;
+}
+.first header nav ul li img
+{
+    height: 30px;
+    width: 30px;
+}
+
+.Middle
+{
+    height: 300px;
+    text-align: center;
+    padding-top: 4%;
+}
+.Middle h1
+{
+    color: white;
+    font-size: 40px;
+    font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.Middle p
+{
+    color: white;
+    font-size: 18px;
+}
+.Middle img
+{
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.second
+{
+    box-shadow: 5px 6px 100px black inset;
+    background-color: black;
+    height: 550px;
+}
+.second header
+{
+    border: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Atkinson Hyperlegible Next", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  color: white;
+}
+.second p
+{
+    text-align: center;
+    line-height: 25px;
+    font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+}
+.second footer a img
+{
+    display: inline;
+}
+.second footer
+{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 65px;
+}
+.second footer img
+{
+    width: 80%;
+    height: auto;
+}
+#piky
+{
+    height: 240px;
+    width: 85%;
+}
+.second aside
+{
+    margin-top: 40px;
+    text-align: center;
+    font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.second aside a
+{
+    text-decoration: none;
+    color: rgb(41, 109, 236);
+}
+
+/*=====================THIRD SECTION==========================*/
+
+.third
+{
+    background-color: black;
+    margin-top: 0px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.third h1
+{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.third p
+{
+    text-align: center;
+    font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 25px;
+  color: white;
+}
+
+.pictures
+{
+    display: flex;
+    justify-content: space-around;
+}
+.pictures figure img
+{
+    width: 55%;
+    height: auto;
+    display: inline-block;
+    margin-left: 25%;
+}
+
+/*============FOURTH============*/
+
+.fourth
+{
+    height: 500px;
+    background-image: url(images/mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 40%;
+    background-position-x: 90%;
+    box-shadow: -9px -8px 600px black inset;
+}
+.fourth a
+{
+    display: inline-block;
+    margin-left: 45%;
+    color: rgb(41, 109, 236);
+    text-decoration: none;
+    font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.last footer
+{
+    display: flex;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.last ul
+{
+    display: flex;
+    justify-content: space-around;
+    width: 38%;
+}
+.last ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+
+}
+.last ul li
+{
+    list-style: none;
+    color: white;
+}
+.last p
+{
+    color: white;
+    font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
